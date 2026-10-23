@@ -43,18 +43,23 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#nazev a {
+    text-decoration: none;
+    color: black;
+}
+
 #footer-text {
     font-size: 10px;
-    color: grey;
+    color: rgb(175, 148, 148);
     padding: 3px;
 }
 
 #nav a {
-    background-color: rgb(210, 161, 161);
+    background-color: rgb(161, 210, 177);
     padding: 6px;
     border-radius: 2px;
     text-decoration: none;
-    border: 2px blue solid;
+    border: 2px rgb(0, 0, 0) solid;
     transition: 0.5s;
     color:black;
 }
@@ -69,7 +74,36 @@ img {
     padding: 10px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(220, 207, 207);
+    background-color: rgb(119, 36, 36);
     position: sticky;
     top: 0;
 }
+#jer {
+    padding: 10px 10px;
+    text-align: justify;
+}
+h1:hover {
+    font-size: 45px;
+    transition: 1s;
+    margin-bottom: 18px;
+}
+h1 {
+    font-size: 55px;
+    transition: 1s;
+    margin-bottom: 0px;
+}
+#ger {
+    -webkit-box-shadow:0px 0px 75px 23px rgba(0,0,0,0.36);
+-moz-box-shadow: 0px 0px 75px 23px rgba(0,0,0,0.36);
+box-shadow: 0px 0px 75px 23px rgba(0,0,0,0.36);
+border-radius: 15px;
+}
+#hej {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 168, 168);
+    position: sticky;
+    top: 0;
+    }
