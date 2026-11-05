@@ -1,6 +1,8 @@
 body {
     max-width: 750px;
     margin: auto;
+    background-color: #faf5ee;
+    color: #2b1d1a;
 }
 
 p {
@@ -11,16 +13,6 @@ p {
 img {
     border-radius: 15px;
     width: 750px;
-}
-
-
-.vpravo {
-    float: right;
-    margin: 12px;
-}
-.vlevo {
-    float: left;
-    margin: 12px;
 }
 
 #nazev {
@@ -36,7 +28,7 @@ img {
 
 #footer-text {
     font-size: 10px;
-    color: rgb(175, 148, 148);
+    color: #8a6f6a;
     padding: 3px;
 }
 
@@ -48,10 +40,11 @@ img {
     border: 2px rgb(0, 0, 0) solid;
     transition: 0.5s;
     color:black;
+    border-radius: 15px;
 }
 
 #nav a:hover {
-    background-color: rgb(161, 210, 204);
+    background-color: #e8c36a;
 }
 
 
@@ -63,24 +56,29 @@ img {
     background-color: rgb(119, 36, 36);
     position: sticky;
     top: 0;
+    border-radius: 30px;
 }
 #jer {
     padding: 10px 10px;
     text-align: justify;
 }
 h1:hover {
-    font-size: 45px;
-    transition: 1s;
+    transform: scale(0.82);
 }
 h1 {
     font-size: 55px;
     transition: 1s;
+    margin-top: 0;
+}
+#ger ing {
+    display: block;
 }
 #ger {
     -webkit-box-shadow:0px 0px 75px 23px rgba(0,0,0,0.36);
 -moz-box-shadow: 0px 0px 75px 23px rgba(0,0,0,0.36);
 box-shadow: 0px 0px 75px 23px rgba(0,0,0,0.36);
 border-radius: 15px;
+line-height: 0;
 }
 #hej {
     border: 2px solid black;
@@ -91,16 +89,23 @@ border-radius: 15px;
     position: sticky;
     top: 0;
     }
-#pet{
-    height: 120px;
-    padding-top: 25px;
-
-}
-#utr{
+#utr {
     text-align: center;
-    position: absolute; top: 0;
-    display: block;
-    margin: auto;
-    width: 50%;
 }
-z-index
+    
+#utr img {
+    width: 100px;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto;
+}
+    
+#pet {
+    height: auto;
+    padding-top: 0;
+}
+    
+#pet h1 {
+    margin: -40px 0 0 0;
+    line-height: 1;
+}
