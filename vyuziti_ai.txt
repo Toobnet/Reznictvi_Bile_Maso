@@ -1,0 +1,19 @@
+VYUŽITÍ AI (CLAUDE) PŘI TVORBĚ WEBU "ŘEZNICTVÍ BÍLÉ MASO"
+=========================================================
+
+Claude jsem používal jako pomocníka při ladění vzhledu webu (přibližně 14
+dotazů). Ukazoval jsem mu svůj kód a screenshoty a ptal se na konkrétní
+problémy.
+
+S čím mi pomáhal:
+   - vycentrování loga prasete a zmenšení mezer kolem něj
+   - zaoblení rohů menu
+   - oprava poskakování stránky při najetí na nadpis
+   - odstranění bílého proužku pod fotkou
+   - rady k barvám
+   - průhledné a šrafované verze loga
+
+Co jsem se naučil: centrování pomocí margin, rozdíl mezi inline a blokovými
+prvky, position a z-index, transform u animací.
+
+Moje část práce: (doplň vlastními slovy)
