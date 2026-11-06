@@ -1,6 +1,6 @@
 VYUŽITÍ AI PŘI TVORBĚ WEBU "ŘEZNICTVÍ BÍLÉ MASO"
 
-Claude jsem používal jako pomocníka při ladění vzhledu webu. Ukazoval jsem mu svůj kód a screenshoty a ptal se na konkrétní
+AI jsem používal jako pomocníka při ladění vzhledu webu. Ukazoval jsem mu svůj kód a screenshoty a ptal se na konkrétní
 problémy.
 
 S čím mi pomáhal:
